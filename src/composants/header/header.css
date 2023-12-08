@@ -1,0 +1,14 @@
+header {
+  padding: 30px;
+  display: flex;
+}
+
+.nav-header {
+  margin-right: 5px;
+  width: 30%;
+}
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+}
