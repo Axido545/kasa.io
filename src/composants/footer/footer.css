@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:wght@500&display=swap");
+
+.footer-block {
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  margin: 0 auto;
+  font-family: "Montserrat";
+  padding: 50px;
+}
