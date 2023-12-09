@@ -3,12 +3,10 @@ import "./home.css";
 import Banner from "../../composants/banner/Banner.jsx";
 
 function Home (){
-
     return <div>
-        
         <Banner/>
-        <p>
-        </p>
+        <main className="main-home">
+        </main>
      </div>
 }
 
