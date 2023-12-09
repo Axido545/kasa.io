@@ -7,9 +7,7 @@ import './header.css'
     <ul>
         <li>Accueil</li>
         <li>A propos</li>
-
     </ul>
-
     </nav>
   </header>
 }

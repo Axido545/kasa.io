@@ -2,8 +2,10 @@ header {
   padding: 30px;
   display: flex;
   position: relative;
-  padding-left: 100px;
-  padding-right: 100px;
+  /* padding-left: 100px;
+  padding-right: 100px; */
+  width: 1240px;
+  margin: 0 auto;
 }
 
 .nav-header {
@@ -17,7 +19,7 @@ header {
 ul {
   list-style-type: none;
   display: inline-block;
-  right: 100px;
+  right: 30px;
   position: absolute;
 }
 
@@ -25,4 +27,17 @@ li {
   display: inline-block;
   padding: 10px;
   right: auto;
+}
+
+a {
+  color: #ff6060;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.active {
+  text-decoration: underline;
 }
