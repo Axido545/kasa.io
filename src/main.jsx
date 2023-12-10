@@ -8,6 +8,7 @@ import './index.css'
 import Home from './pages/home/Home.jsx'
 import About from './pages/about/About'
 import ErrorPage from "./pages/404/404.jsx"
+import Single  from './pages/housing/Single.jsx';
 
 const router = createBrowserRouter(
   [
@@ -20,7 +21,10 @@ const router = createBrowserRouter(
     {
       path: '/about',
       element :<About/>
-    
+    },
+    {
+      path:'/housing/:id',
+      element : <Single/>
     },
 
   ]
