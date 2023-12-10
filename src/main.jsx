@@ -7,12 +7,14 @@ import {
 import './index.css'
 import Home from './pages/home/Home.jsx'
 import About from './pages/about/About'
+import ErrorPage from "./pages/404/404.jsx"
 
 const router = createBrowserRouter(
   [
     {
       path: '/',
-      element :<Home/>
+      element :<Home/>,
+      errorElement: <ErrorPage />,
     
     },
     {

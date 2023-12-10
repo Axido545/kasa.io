@@ -1,0 +1,21 @@
+.error-class {
+  color: #ff6060;
+  text-align: center;
+  font-family: "Montserrat";
+  margin-bottom: 100px;
+}
+
+h1 {
+  font-size: 288px;
+  line-height: 142.6%;
+  margin: 0;
+}
+
+.error-class p {
+  font-size: 36px;
+  margin-bottom: 100px;
+}
+
+.error-link {
+  margin-bottom: 100px;
+}

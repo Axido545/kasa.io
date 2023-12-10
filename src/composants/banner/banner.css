@@ -28,8 +28,11 @@
 
 /* .banner-home {
   background-image: url("../../assets/banner-home.png");
-}
+  z-index: 10000;
+  background-color: red;
+} */
 
+/* 
 .banner-about {
   background-image: url("../../assets/banner-about.png");
 } */

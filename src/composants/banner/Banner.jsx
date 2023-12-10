@@ -1,10 +1,12 @@
 import "./banner.css";
 
-function Banner(){
+// eslint-disable-next-line react/prop-types
+function Banner( {mytitle, mystyle}){
 
-    return <div className='banner-style'>
-        <div className="overlay-img">
-        <p>Chez vous, partout et ailleurs</p>
+    return <div className='banner-style'style={mystyle} >
+        <div className='overlay-img'>
+                <p>{mytitle}</p>
+
         </div>
 
 
