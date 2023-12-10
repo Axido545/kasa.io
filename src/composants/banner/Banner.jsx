@@ -6,10 +6,7 @@ function Banner( {mytitle, mystyle}){
     return <div className='banner-style'style={mystyle} >
         <div className='overlay-img'>
                 <p>{mytitle}</p>
-
         </div>
-
-
     </div>
 }
 
