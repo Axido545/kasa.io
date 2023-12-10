@@ -1,9 +1,8 @@
 import "./banner.css";
 
-function Banner(props){
-    const {lien} = props
+function Banner(){
 
-    return <div  className={props.lien}>
+    return <div className='banner-style'>
         <div className="overlay-img">
         <p>Chez vous, partout et ailleurs</p>
         </div>
