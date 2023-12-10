@@ -19,3 +19,17 @@ h1 {
 .error-link {
   margin-bottom: 100px;
 }
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 96px;
+  }
+
+  .error-class p {
+    font-size: 18px;
+  }
+
+  .error-link {
+    font-size: 14px;
+  }
+}
