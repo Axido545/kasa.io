@@ -13,4 +13,5 @@ function Banner( {mytitle, mystyle}){
     </div>
 }
 
+
 export default Banner;
