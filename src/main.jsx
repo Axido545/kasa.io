@@ -5,14 +5,14 @@ import {
   RouterProvider
 } from "react-router-dom";
 import './index.css'
-import Root from './pages/routes/root';
+import Home from './pages/home/Home.jsx'
 import About from './pages/about/About'
 
 const router = createBrowserRouter(
   [
     {
       path: '/',
-      element :<Root/>
+      element :<Home/>
     
     },
     {

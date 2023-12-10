@@ -3,10 +3,10 @@
   width: 1240px;
   border-radius: 25px;
   position: relative;
-  background-image: url("../../assets/banner-home.png");
   background-position: center;
   object-fit: cover;
   margin: 0 auto;
+  /* background-image: url("../../assets/banner-home.png"); */
 }
 
 .overlay-img {
@@ -25,3 +25,11 @@
   font-size: 48px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
+
+/* .banner-home {
+  background-image: url("../../assets/banner-home.png");
+}
+
+.banner-about {
+  background-image: url("../../assets/banner-about.png");
+} */
