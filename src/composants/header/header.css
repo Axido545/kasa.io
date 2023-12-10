@@ -2,8 +2,6 @@ header {
   padding: 30px;
   display: flex;
   position: relative;
-  /* padding-left: 100px;
-  padding-right: 100px; */
   width: 1240px;
   margin: 0 auto;
 }
@@ -40,4 +38,20 @@ a:hover {
 
 a.active {
   text-decoration: underline;
+}
+
+@media (max-width: 640px) {
+  header {
+    width: 100%;
+  }
+
+  .logo-header {
+    width: 145px;
+  }
+
+  ul {
+    right: 70px;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
 }
