@@ -4,12 +4,17 @@ import './header.css'
     return<header>
         <img className='logo-header' src={logoHeader} />
    <nav className='nav-header'>
-    <ul>
-        <li>Accueil</li>
-        <li>A propos</li>
+    <ul> <li>
+    <a href={`/`}>Accueil</a>
+    </li>
+<li>
+<a href={`/about`}>A propos</a>
+</li>
     </ul>
     </nav>
   </header>
 }
 
 export default Header;
+
+

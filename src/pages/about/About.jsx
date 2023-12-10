@@ -1,5 +1,13 @@
+import Header from "../../composants/header/Header";
+import Footer from "../../composants/footer/footer";
+
 function About (){
-    return <div>Ceci est la page d apropos</div>
+    return<>
+    <Header/>
+
+    <Footer/>
+    </>
+    
 }
 
 export default About;
