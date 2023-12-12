@@ -20,6 +20,7 @@ export default function Home() {
             key={id}
             title={title}
             cover={cover}
+            id={id}
 
           />))}
 

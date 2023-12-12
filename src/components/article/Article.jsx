@@ -1,5 +1,6 @@
 import "./article.css"
 import PropTypes from 'prop-types'
+import { Link } from "react-router-dom"
 
 /**
  * 
@@ -9,7 +10,9 @@ import PropTypes from 'prop-types'
 export default function Article({id,title,cover}){
 
     return <div id={id} className="article-block">
+      <Link to={`/housing/:id=${id}`}>
       <img src={cover} alt={title} className="img-article" />
+      </Link>
         <p className="article-p">{title}</p>
     </div>
 }
