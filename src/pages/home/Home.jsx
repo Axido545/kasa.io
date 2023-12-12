@@ -23,7 +23,6 @@ export default function Home() {
             id={id}
 
           />))}
-
                 </div>
         </main>
       <Footer/>

@@ -10,7 +10,7 @@ import { Link } from "react-router-dom"
 export default function Article({id,title,cover}){
 
     return <div id={id} className="article-block">
-      <Link to={`/housing/:id=${id}`}>
+      <Link to={`/housing/${id}`}>
       <img src={cover} alt={title} className="img-article" />
       </Link>
         <p className="article-p">{title}</p>
