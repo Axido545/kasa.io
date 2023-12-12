@@ -6,9 +6,10 @@ import PropTypes from 'prop-types'
  * @argument
  * */
 
-export default function Article({id,title}){
+export default function Article({id,title,cover}){
 
     return <div id={id} className="article-block">
+      <img src={cover} alt={title} className="img-article" />
         <p className="article-p">{title}</p>
     </div>
 }
