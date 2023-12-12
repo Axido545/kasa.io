@@ -2,7 +2,6 @@
   background-color: #f6f6f6;
   border-radius: 25px;
   width: 1240px;
-  height: 829px;
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -13,7 +12,7 @@
   width: 1240px;
   border-radius: 25px;
   position: relative;
-  background-image: url("../../assets/banner-home.png");
+  background-image: url('../../assets/banner-home.png');
   background-position: center;
   object-fit: cover;
   margin: 0 auto;
@@ -37,5 +36,45 @@
   background-position: center;
   object-fit: cover;
   margin: 0 auto;
-  background-image: url("../../assets/banner-home.png");
+  background-image: url('../../assets/banner-home.png');
+}
+
+.ul-article {
+  flex: 1;
+  margin: 5px; /* Espacement entre les colonnes */
+}
+.li-article {
+  width: 100%; /* Assurez-vous que chaque élément occupe toute la largeur de la colonne */
+  box-sizing: border-box; /* Inclure les marges et les rembourrages dans la largeur totale */
+}
+
+.container-article {
+  display: flex;
+  flex-flow: row wrap;
+  margin: 30px auto 30px auto;
+  gap: 4%;
+  row-gap: 25px;
+  padding: 50px;
+  border-radius: 30px;
+}
+/* 
+.container {
+  display: flex;
+  flex-wrap: wrap;
+} */
+
+.column {
+  flex: 1;
+  margin: 5px; /* Espacement entre les colonnes */
+}
+
+/* Exemple d'utilisation : */
+.item {
+  width: 100%; /* Assurez-vous que chaque élément occupe toute la largeur de la colonne */
+  box-sizing: border-box; /* Inclure les marges et les rembourrages dans la largeur totale */
+}
+
+/* Exemple d'utilisation : */
+.item img {
+  width: 100%; /* Pour s'assurer que l'image s'étend sur toute la largeur de l'élément */
 }

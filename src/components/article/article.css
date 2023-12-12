@@ -1,10 +1,11 @@
 .article-block {
   background-color: black;
-  width: 340px;
   height: 340px;
   border-radius: 10px;
-  position: relative;
-  display: flex;
+  /* position: relative; */
+  display: grid;
+  width: 30%; /* Assurez-vous que chaque élément occupe toute la largeur de la colonne */
+  box-sizing: border-box;
 }
 
 .article-p {

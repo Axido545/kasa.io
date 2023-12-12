@@ -5,7 +5,7 @@ import "../../components/banner/banner.css"
 import "./home.css"
 import bannerHome from "../../assets/banner-home.png"
 import Article from "../../components/article/Article.jsx";
-
+import { Housing } from "../../datas/housing.js";
 
 export default function Home() {
     return (
@@ -14,7 +14,13 @@ export default function Home() {
       <Banner mytitle="chez vous partout et ailleurs"
  url= {bannerHome}/>
       <main className="main-home">
-        <Article/>
+        <div className="container-article">
+          {Housing.map((id) => (
+            <Article
+            key={id}
+          />))}
+
+                </div>
         </main>
       <Footer/>
       </>
