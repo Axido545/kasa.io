@@ -1,13 +1,12 @@
-import Header from "../../composants/header/Header";
-import Footer from "../../composants/footer/footer";
-import Banner from "../../composants/banner/Banner";
+import Header from "../../components/header/Header";
+import Footer from "../../components/footer/footer";
+import Banner from "../../components/banner/Banner";
+import bannerAbout from "../../assets/banner-about.png"
 
 function About (){
     return<>
     <Header/>
-<Banner style={{backgroundImage : 'url("../../assets/banner-about.png")',
-
-}}/>
+<Banner url={bannerAbout} mytitle=""/>
     <Footer/>
     </>
     

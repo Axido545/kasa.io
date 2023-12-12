@@ -1,22 +1,20 @@
-import Header from "../../composants/header/Header"
-import Footer from "../../composants/footer/footer"
-import Banner from "../../composants/banner/Banner.jsx";
-import "../../composants/banner/banner.css"
-import bannerHome from "../../assets/banner-home.png"
+import Header from "../../components/header/Header"
+import Footer from "../../components/footer/footer"
+import Banner from "../../components/banner/Banner.jsx";
+import "../../components/banner/banner.css"
 import "./home.css"
+import bannerHome from "../../assets/banner-home.png"
+import Article from "../../components/article/Article.jsx";
 
 
 export default function Home() {
-    const bannerStyle = {
-        backgroundImage: `url(${bannerHome})`,
-      };
     return (
       <>
       <Header/>
       <Banner mytitle="chez vous partout et ailleurs"
-    style={{ backgroundImage: `url(${bannerStyle})` }} 
-/>
+ url= {bannerHome}/>
       <main className="main-home">
+        <Article/>
         </main>
       <Footer/>
       </>

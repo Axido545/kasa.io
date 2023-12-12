@@ -1,5 +1,5 @@
-import Footer from "../../composants/footer/footer.jsx"
-import Header from "../../composants/header/Header.jsx"
+import Footer from "../../components/footer/footer.jsx"
+import Header from "../../components/header/Header.jsx"
 import {useParams} from "react-router-dom"
 import bannerHousing from "../../assets/banner-housing.png"
 import "./single.css"

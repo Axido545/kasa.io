@@ -28,3 +28,14 @@
   align-items: center;
   justify-content: center;
 }
+
+.banner-style {
+  height: 223px;
+  width: 1240px;
+  border-radius: 25px;
+  position: relative;
+  background-position: center;
+  object-fit: cover;
+  margin: 0 auto;
+  background-image: url("../../assets/banner-home.png");
+}

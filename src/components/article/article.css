@@ -1,0 +1,21 @@
+.article-block {
+  background-color: black;
+  width: 340px;
+  height: 340px;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+}
+
+.article-p {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.6%; /* 25.668px */
+  width: 300px;
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+}
