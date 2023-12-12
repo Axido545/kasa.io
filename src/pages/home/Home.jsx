@@ -15,9 +15,11 @@ export default function Home() {
  url= {bannerHome}/>
       <main className="main-home">
         <div className="container-article">
-          {Housing.map((id) => (
+          {Housing.map(({id,title}) => (
             <Article
             key={id}
+            title={title}
+
           />))}
 
                 </div>

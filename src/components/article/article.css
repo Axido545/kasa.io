@@ -2,9 +2,9 @@
   background-color: black;
   height: 340px;
   border-radius: 10px;
-  /* position: relative; */
+  position: relative;
   display: grid;
-  width: 30%; /* Assurez-vous que chaque élément occupe toute la largeur de la colonne */
+  width: 30%;
   box-sizing: border-box;
 }
 
@@ -14,9 +14,10 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 142.6%; /* 25.668px */
-  width: 300px;
+  line-height: 142.6%;
+  width: 126px;
   position: absolute;
   left: 10px;
   bottom: 10px;
+  z-index: 10;
 }
