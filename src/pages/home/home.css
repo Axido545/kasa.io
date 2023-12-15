@@ -60,3 +60,24 @@
 .item img {
   width: 100%;
 }
+
+@media (max-width: 640px) {
+  .main-home {
+    background-color: #fff;
+    border-radius: 25px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5 px;
+  }
+
+  .container-article {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 5px auto;
+    gap: 0%;
+    row-gap: 15px;
+    padding: 15px;
+    border-radius: 30px;
+  }
+}
