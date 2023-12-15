@@ -1,5 +1,6 @@
 .banner-style {
   position: relative;
+  margin-bottom: 10px;
 }
 
 .img-banner {
@@ -35,7 +36,21 @@
   text-align: center;
 }
 
+.banner-style {
+  height: 223px;
+  width: 1240px;
+  border-radius: 25px;
+  position: relative;
+  background-position: center;
+  object-fit: cover;
+  margin: 10 auto;
+}
+
 @media (max-width: 640px) {
+  .banner-style {
+    height: 111px;
+    margin-bottom: 10px;
+  }
   .banner-style p {
     font-size: 24px;
     width: 65%;
@@ -44,5 +59,6 @@
   .img-banner {
     width: 335px;
     height: 111px;
+    margin: 10px;
   }
 }

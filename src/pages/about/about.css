@@ -1,0 +1,11 @@
+.collapses {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 640px) {
+  .collapses {
+    width: 335px;
+    margin: 30px 10px 10px 10px;
+  }
+}
