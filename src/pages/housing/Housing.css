@@ -30,3 +30,18 @@
   font-size: 18px;
   margin: 0;
 }
+
+.collapse-house {
+  display: flex;
+  flex-flow: row;
+  width: 1240px;
+}
+.collapse-house-v {
+  width: 50px;
+  gap: 10px;
+  background-color: yellow;
+}
+
+/* .wrapper-collapse {
+  align-items: normal;
+} */

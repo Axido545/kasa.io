@@ -4,6 +4,8 @@ import { useNavigate, useParams } from 'react-router-dom'
 import bannerHousing from '../../assets/banner-housing.png'
 import './housing.css'
 import { useState, useEffect } from 'react'
+import Tags from '../../components/tags/Tags.jsx'
+import Collapse from '../../components/collapse/Collapse.jsx'
 
 function Housing() {
   const [house, setHouse] = useState()
@@ -34,6 +36,19 @@ function Housing() {
           <main className="house-main">
             <h1 className="house-title"> {house.title}</h1>
             <p className="house-location"> {house.location}</p>
+            <Tags tag={house.tags} />
+            <div className="collapse-house">
+              <Collapse
+                className="collapse-house-v"
+                title="Description"
+                content={house.description}
+              />
+              <Collapse
+                className="collapse-house-v"
+                title="Équipements"
+                content={house.equipments}
+              />
+            </div>
           </main>
         </>
       )}

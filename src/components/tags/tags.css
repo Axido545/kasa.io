@@ -1,0 +1,17 @@
+.house-tag {
+  display: flex;
+  flex-flow: row;
+  /* align-items: flex-start; */
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.house-tag .tag {
+  background-color: #ff6060;
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  font-family: 'Montserrat';
+  padding: 5px 30px;
+  border-radius: 10px;
+}
