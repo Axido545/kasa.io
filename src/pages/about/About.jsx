@@ -9,9 +9,11 @@ function About() {
     <>
       <Header />
       <Banner url={bannerAbout} mytitle="" />
-      <Collapse
-      //  title={title} content={content}
-      />
+      <Collapse title="Fiabilité" content="mon contenu 1" />
+      <Collapse title="Respect" content="mon contenu 2" />
+      <Collapse title="Service" content="mon contenu 3" />
+      <Collapse title="Sécurité" content="mon contenu 4" />
+
       <Footer />
     </>
   )
