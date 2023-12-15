@@ -33,6 +33,7 @@ function Housing() {
           <img className="banner-housing" src={bannerHousing} />
           <main className="house-main">
             <h1 className="house-title"> {house.title}</h1>
+            <p className="house-location"> {house.location}</p>
           </main>
         </>
       )}

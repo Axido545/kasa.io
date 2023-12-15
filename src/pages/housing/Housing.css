@@ -9,7 +9,6 @@
 .house-main {
   margin: 24px 204px;
   margin: 0 auto;
-  display: flex;
   width: 1240px;
   height: 415px;
 }
@@ -21,4 +20,13 @@
   font-style: normal;
   font-weight: 500;
   line-height: 142.6%;
+  display: block;
+}
+
+.house-location {
+  display: block;
+  font-family: 'Montserrat';
+  color: #ff6060;
+  font-size: 18px;
+  margin: 0;
 }
