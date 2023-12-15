@@ -18,4 +18,11 @@
   width: 1023px;
   font-family: 'Montserrat';
   font-size: 24px;
+  position: relative;
+}
+
+.chevron-collapse {
+  color: white;
+  right: 15px;
+  position: absolute;
 }

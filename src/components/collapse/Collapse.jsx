@@ -6,7 +6,9 @@ export default function Collapse({ title, content }) {
     <div className="wrapper-collapse">
       <div className="collapse-title">
         {title}
-        <span></span>
+        <span>
+          <i class="fa-solid fa-chevron-up chevron-collapse"></i>
+        </span>
       </div>
       <div className="collapse-content">{content}</div>
     </div>
