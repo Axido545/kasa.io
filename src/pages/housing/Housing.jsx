@@ -2,10 +2,10 @@ import Footer from '../../components/footer/footer.jsx'
 import Header from '../../components/header/Header.jsx'
 import { useNavigate, useParams } from 'react-router-dom'
 import bannerHousing from '../../assets/banner-housing.png'
-import './single.css'
+import './housing.css'
 import { useState, useEffect } from 'react'
 
-function Single() {
+function Housing() {
   const [house, setHouse] = useState()
   const { id } = useParams()
   const navigate = useNavigate()
@@ -23,7 +23,7 @@ function Single() {
         })
     }
     getHousings()
-  }, [id])
+  })
 
   return (
     <>
@@ -42,4 +42,4 @@ function Single() {
   )
 }
 
-export default Single
+export default Housing

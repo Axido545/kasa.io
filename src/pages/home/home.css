@@ -71,3 +71,9 @@
 .item img {
   width: 100%;
 }
+
+@media (max-width: 640px) {
+  .banner-style {
+    height: 111px;
+  }
+}

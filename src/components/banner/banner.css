@@ -22,7 +22,7 @@
 
 .title-style {
   color: white;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-size: 48px;
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
   z-index: 10;
@@ -36,14 +36,13 @@
 }
 
 @media (max-width: 640px) {
-  .banner-style {
-    width: 335px;
-    height: 111px;
-  }
-
   .banner-style p {
     font-size: 24px;
     width: 65%;
     padding: 30px;
+  }
+  .img-banner {
+    width: 335px;
+    height: 111px;
   }
 }
