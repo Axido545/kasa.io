@@ -39,7 +39,7 @@ function Housing() {
             <h1 className="house-title"> {house.title}</h1>
             <p className="house-location"> {house.location}</p>
             <Tags tags={house.tags} />
-            <Ratings />
+            <Ratings ratings={house.ratings} key={house.id} />
             <Host
               className="host-place"
               name={house.host.name}
