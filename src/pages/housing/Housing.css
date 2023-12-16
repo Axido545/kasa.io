@@ -9,6 +9,7 @@
 .house-main {
   margin: 0 auto;
   width: 1240px;
+  position: relative;
 }
 
 .house-title {
@@ -44,3 +45,8 @@
 /* .wrapper-collapse {
   align-items: normal;
 } */
+
+.host-place {
+  position: absolute;
+  right: 0;
+}

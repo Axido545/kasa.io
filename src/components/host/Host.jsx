@@ -1,8 +1,10 @@
+import './host.css'
+
 export default function Host({ name, url }) {
   return (
-    <div>
-      <p>{name}</p>
-      <img src={url} alt="host" />
+    <div className="host-wrapper">
+      <p className="host-name">{name}</p>
+      <img className="host-picture" src={url} alt="host" />
     </div>
   )
 }

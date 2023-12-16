@@ -40,7 +40,11 @@ function Housing() {
             <p className="house-location"> {house.location}</p>
             <Tags tags={house.tags} />
             <Ratings />
-            <Host name={house.host.name} url={house.host.picture} />
+            <Host
+              className="host-place"
+              name={house.host.name}
+              url={house.host.picture}
+            />
             <div className="collapse-house">
               <Collapse
                 className="collapse-house-v"

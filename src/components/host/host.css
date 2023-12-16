@@ -1,0 +1,26 @@
+.host-picture {
+  border-radius: 100%;
+  width: 64px;
+  height: 64px;
+}
+
+.host-wrapper {
+  display: flex;
+  flex-flow: row;
+  position: absolute;
+  right: 0;
+  top: 10px;
+}
+
+.host-name {
+  color: #ff6060;
+  text-align: right;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.6%; /* 25.668px */
+  line-height: 1; /* Réglez la valeur de line-height à 1 pour empiler les mots */
+  height: 20px;
+  width: 94px;
+}
