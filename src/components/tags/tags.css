@@ -14,4 +14,10 @@
   font-family: 'Montserrat';
   padding: 5px 30px;
   border-radius: 10px;
+  margin: 30px 20px 30px 0;
+  display: inline-block;
+}
+
+.tag-list {
+  position: relative;
 }

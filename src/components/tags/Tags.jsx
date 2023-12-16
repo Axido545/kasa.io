@@ -1,9 +1,13 @@
 import './tags.css'
 
-export default function Tags({ tag }) {
+export default function Tags({ tags }) {
   return (
     <div className="house-tag">
-      <span className="tag">{tag}</span>
+      <div className="tag-list">
+        {tags.map((tag) => (
+          <div className="tag">{tag}</div>
+        ))}
+      </div>
     </div>
   )
 }
