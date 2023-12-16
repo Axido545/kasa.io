@@ -7,13 +7,13 @@
   align-items: center;
   margin-bottom: 30px; */
   margin: 10px;
+  width: 100%;
 }
 
 .collapse-title {
   background-color: #ff6060;
   border-radius: 5px;
   color: white;
-  /* width: 1023px; */
   font-family: 'Montserrat';
   font-size: 24px;
   position: relative;

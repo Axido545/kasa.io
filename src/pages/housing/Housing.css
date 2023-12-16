@@ -7,7 +7,6 @@
 }
 
 .house-main {
-  margin: 24px 204px;
   margin: 0 auto;
   width: 1240px;
   height: 415px;
@@ -37,7 +36,7 @@
   width: 1240px;
 }
 .collapse-house-v {
-  width: 50px;
+  width: 50%;
   gap: 10px;
   background-color: yellow;
 }
