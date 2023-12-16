@@ -1,0 +1,14 @@
+.grey {
+  color: #e3e3e3;
+}
+
+.rating-position {
+  position: absolute;
+  right: 0;
+  top: 100px;
+}
+
+.rating-star {
+  padding: 5px;
+  font-size: 20px;
+}

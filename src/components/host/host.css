@@ -19,8 +19,8 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
-  line-height: 142.6%; /* 25.668px */
-  line-height: 1; /* Réglez la valeur de line-height à 1 pour empiler les mots */
+  line-height: 142.6%;
+  line-height: 1;
   height: 20px;
   width: 94px;
 }
