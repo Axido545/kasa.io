@@ -33,7 +33,8 @@
 .collapse-house {
   display: flex;
   flex-flow: row;
-  width: 1240px;
+  width: 1272px;
+  margin-left: -15px;
 }
 .collapse-house-v {
   width: 50%;
