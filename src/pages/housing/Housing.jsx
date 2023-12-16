@@ -6,6 +6,8 @@ import './housing.css'
 import { useState, useEffect } from 'react'
 import Tags from '../../components/tags/Tags.jsx'
 import Collapse from '../../components/collapse/Collapse.jsx'
+import Ratings from '../../components/ratings/Ratings.jsx'
+import Host from '../../components/host/Host.jsx'
 
 function Housing() {
   const [house, setHouse] = useState()
@@ -37,6 +39,8 @@ function Housing() {
             <h1 className="house-title"> {house.title}</h1>
             <p className="house-location"> {house.location}</p>
             <Tags tags={house.tags} />
+            <Ratings />
+            <Host name={house.host.name} url={house.host.picture} />
             <div className="collapse-house">
               <Collapse
                 className="collapse-house-v"
