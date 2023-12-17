@@ -8,6 +8,7 @@ import Tags from '../../components/tags/Tags.jsx'
 import Collapse from '../../components/collapse/Collapse.jsx'
 import Rating from '../../components/ratings/Rating.jsx'
 import Host from '../../components/host/Host.jsx'
+import { Carousel } from '../../components/carousel/Carousel.jsx'
 
 function Housing() {
   const [house, setHouse] = useState()
@@ -35,11 +36,13 @@ function Housing() {
       {house && (
         <>
           <img className="banner-housing" src={bannerHousing} />
+          <Carousel data={house.pictures} />
+
           <main className="house-main">
             <h1 className="house-title"> {house.title}</h1>
             <p className="house-location"> {house.location}</p>
             <Tags tags={house.tags} />
-            <Rating rating={house.rating} key={house.id} />
+            <Rating rating={house.rating} />
             <Host
               className="host-place"
               name={house.host.name}

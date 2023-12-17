@@ -1,17 +1,17 @@
 import './rating.css'
 
-export default function Rating({ rating, key }) {
+export default function Rating({ rating }) {
   const rang = [1, 2, 3, 4, 5]
 
   return (
     <div className="rating-position">
-      {rang.map((rangElem) =>
+      {rang.map((rangElem, index) =>
         rating >= rangElem ? (
-          <span key={key}>
+          <span key={`${rangElem}-${index}`}>
             <i className="fa-star fa-solid red rating-star"></i>
           </span>
         ) : (
-          <span key={key}>
+          <span key={`${rangElem}-${index}`}>
             <i className="fa-star fa-solid gray rating-star"></i>
           </span>
         )

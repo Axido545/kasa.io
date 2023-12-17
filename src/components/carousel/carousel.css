@@ -1,0 +1,31 @@
+.carousel {
+  position: relative;
+  height: 415px;
+  width: 1240px;
+  border-radius: 25px;
+  /* background-position: center; */
+  object-fit: cover;
+  margin: 0 auto;
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 0 auto; */
+}
+
+.slide {
+  width: 1240px;
+  height: 100%;
+  border-radius: 3rem;
+  /* box-shadow: 0px 0px 7px #666; */
+  height: 415px;
+  width: 1240px;
+  /* border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center; */
+  object-fit: cover;
+  margin: 0 auto;
+  /* position: absolute; */
+  z-index: 1;
+}
