@@ -5,9 +5,18 @@ import arrowRight from '../../assets/arrow-right.png'
 
 export const Carousel = ({ data }) => {
   const [slide, setSlide] = useState(0)
+
+  const nextSlide = () => {
+    setSlide(slide === data.length - 1 ? 0 : slide + 1)
+  }
+
+  const prevSlide = () => {
+    setSlide(slide === 0 ? data.length - 1 : slide - 1)
+  }
+
   return (
     <div className="carousel">
-      <img src={arrowLeft} className="arrow arrow-left"></img>
+      <img src={arrowLeft} className="arrow arrow-left" onClick={prevSlide} />
       {data.map((item, index) => {
         return (
           <img
@@ -17,11 +26,14 @@ export const Carousel = ({ data }) => {
           />
         )
       })}
-      <img src={arrowRight} className="arrow arrow-right"></img>
-
+      <img src={arrowRight} className="arrow arrow-right" onClick={nextSlide} />
       <span>
-        {data.map((_, idx) => {
-          return <span key={idx}>{/* {`${idx}/${_}`} */}</span>
+        {data.map((_, index) => {
+          return (
+            <span className="pagination" key={index}>
+              {slide === index ? `${slide + 1}/${data.length}` : null}
+            </span>
+          )
         })}
       </span>
     </div>

@@ -42,3 +42,15 @@
 .arrow-right {
   right: 1rem;
 }
+
+.pagination {
+  color: #fff;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 142.6%;
+  position: absolute;
+  bottom: 0;
+}
