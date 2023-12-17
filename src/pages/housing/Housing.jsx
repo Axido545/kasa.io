@@ -6,7 +6,7 @@ import './housing.css'
 import { useState, useEffect } from 'react'
 import Tags from '../../components/tags/Tags.jsx'
 import Collapse from '../../components/collapse/Collapse.jsx'
-import Ratings from '../../components/ratings/Ratings.jsx'
+import Rating from '../../components/ratings/Rating.jsx'
 import Host from '../../components/host/Host.jsx'
 
 function Housing() {
@@ -39,7 +39,7 @@ function Housing() {
             <h1 className="house-title"> {house.title}</h1>
             <p className="house-location"> {house.location}</p>
             <Tags tags={house.tags} />
-            <Ratings ratings={house.ratings} key={house.id} />
+            <Rating rating={house.rating} key={house.id} />
             <Host
               className="host-place"
               name={house.host.name}
