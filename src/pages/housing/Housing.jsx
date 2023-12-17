@@ -35,7 +35,6 @@ function Housing() {
       <Header />
       {house && (
         <>
-          <img className="banner-housing" src={bannerHousing} />
           <Carousel data={house.pictures} />
 
           <main className="house-main">
