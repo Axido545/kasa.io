@@ -3,96 +3,42 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 600px;
-  height: 400px;
-  /* height: 415px;
   width: 1240px;
-  border-radius: 25px;
-  /* background-position: center; */
+  height: 415px;
   object-fit: cover;
   margin: 0 auto;
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  /* margin: 0 auto; */
 }
 
 .slide {
-    border-radius: 3rem;
-    width: 1240px;
-    height: 415px;
-    object-fit: cover;
-    background-position: center;
-    margin: 0 auto;
-    position: absolute;
-    
-/*
-  display: flex;
-  align-items: center;
-  justify-content: center;
- 
-  z-index: 1; 
-  */ 
-}
-
-.slide-hidden{
-    display: none;
-}
-
-/* .fa-angle-left,
-.fa-angle-right
- {
+  border-radius: 3rem;
+  width: 1240px;
+  height: 415px;
+  object-fit: cover;
+  background-position: center;
+  margin: 0 auto;
   position: absolute;
-  color: white;
-  width: 25rem;
-  height: 25rem;
-  z-index: 2;
-  display: block;
-} */
+}
+
+.slide-hidden {
+  display: none;
+}
 
 .btn-arrow-left,
-.btn-arrow-right{
-    position: absolute;
-
+.btn-arrow-right {
+  position: absolute;
 }
 .arrow {
-    color :white;
-    /* width: 20rem;
-    height: 20rem;
-    color : white;
-    /* filter: drop-shadow(0 0 5px #555) */ */
-}
-
-.arrow:hover{
-    cursor: pointer;
-}
-
-.btn-arrow-left{
-    left: 1rem;
-}
-.btn-arrow-right{
-    right:1rem;
-}
-
-
-
-/* .fa-angle-left {
-  left: 1rem;
   position: absolute;
   color: white;
-  width: 25rem;
-  height: 25rem;
-  z-index: 2;
-  display: block;
+  z-index: 10;
+}
+.arrow:hover {
+  cursor: pointer;
 }
 
-.fa-angle-right {
-    right: 1rem;
-    position: absolute;
-    color: white;
-    width: 25rem;
-    height: 25rem;
-    z-index: 2;
-    display: block;
-  } */
-  
+.arrow-left {
+  left: 1rem;
+}
+.arrow-right {
+  right: 1rem;
+}

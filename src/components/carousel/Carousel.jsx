@@ -1,13 +1,13 @@
 import './carousel.css'
 import { useState } from 'react'
+import arrowLeft from '../../assets/arrow-left.png'
+import arrowRight from '../../assets/arrow-right.png'
 
 export const Carousel = ({ data }) => {
   const [slide, setSlide] = useState(0)
   return (
     <div className="carousel">
-      <div className="btn-arrow-left">
-        <i className="fa-solid fa-angle-left arrow left"></i>
-      </div>
+      <img src={arrowLeft} className="arrow arrow-left"></img>
       {data.map((item, index) => {
         return (
           <img
@@ -17,9 +17,8 @@ export const Carousel = ({ data }) => {
           />
         )
       })}
-      <div className="btn-arrow-right">
-        <i className="fa-solid fa-angle-right arrow arrow right"></i>
-      </div>
+      <img src={arrowRight} className="arrow arrow-right"></img>
+
       <span>
         {data.map((_, idx) => {
           return <span key={idx}>{/* {`${idx}/${_}`} */}</span>
