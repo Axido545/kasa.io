@@ -20,7 +20,17 @@ export default function Collapse({ title, content }) {
         </span>
       </div>
       <div className="collapse-content">
-        <p className="collapse-p">{content}</p>
+        {Array.isArray(content) ? (
+          <ul>
+            {content.map((item, index) => (
+              <li key={index} className="collapse-list-item">
+                {item}
+              </li>
+            ))}
+          </ul>
+        ) : (
+          <p className="collapse-p">{content}</p>
+        )}
       </div>
     </div>
   )

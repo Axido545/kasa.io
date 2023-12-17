@@ -1,7 +1,6 @@
 import Footer from '../../components/footer/footer.jsx'
 import Header from '../../components/header/Header.jsx'
 import { useNavigate, useParams } from 'react-router-dom'
-import bannerHousing from '../../assets/banner-housing.png'
 import './housing.css'
 import { useState, useEffect } from 'react'
 import Tags from '../../components/tags/Tags.jsx'
