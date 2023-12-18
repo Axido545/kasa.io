@@ -40,17 +40,21 @@
 
 @media (max-width: 640px) {
   .banner-style {
-    height: 111px;
+    height: 125px;
     margin-bottom: 10px;
   }
   .banner-style p {
     font-size: 24px;
-    width: 65%;
     padding: 30px;
+    width: 234px;
+    top: 74px;
+    left: 155px;
+    position: absolute;
+    text-align: left;
   }
   .img-banner {
-    width: 335px;
+    width: 339px;
     height: 111px;
-    margin: 10px;
+    margin: 18px;
   }
 }
