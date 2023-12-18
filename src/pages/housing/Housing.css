@@ -42,11 +42,28 @@
   background-color: yellow;
 }
 
-/* .wrapper-collapse {
-  align-items: normal;
-} */
-
 .host-place {
   position: absolute;
   right: 0;
+}
+
+@media (max-width: 640px) {
+  .house-title {
+    font-size: 18px;
+    margin-left: 15px;
+    width: 355px;
+  }
+  .house-location {
+    font-size: 14px;
+    margin-left: 15px;
+  }
+  .collapse-house {
+    display: flex;
+    flex-flow: column;
+    width: 28%;
+    margin-left: 5px;
+  }
+  .house-main {
+    margin-bottom: 10px;
+  }
 }

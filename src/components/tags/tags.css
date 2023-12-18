@@ -21,3 +21,14 @@
 .tag-list {
   position: relative;
 }
+
+@media (max-width: 640px) {
+  .house-tag .tag {
+    font-size: 10px;
+    margin: 5px 3px 5px 0;
+  }
+  .tag-list {
+    width: 366px;
+    margin-left: 14px;
+  }
+}
