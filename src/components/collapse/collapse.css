@@ -96,4 +96,14 @@
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
+  margin-top: -16px;
+  margin-bottom: 5px;
+}
+
+.collapse-content-tabs {
+  margin-left: -39px;
+  left: 670px;
+  top: 204px;
+  right: -5px;
+  position: static;
 }

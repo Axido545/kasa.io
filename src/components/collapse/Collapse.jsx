@@ -21,7 +21,7 @@ export default function Collapse({ title, content }) {
       </div>
       <div className="collapse-content">
         {Array.isArray(content) ? (
-          <ul>
+          <ul className="collapse-content-tabs">
             {content.map((item, index) => (
               <li key={index} className="collapse-list-item">
                 {item}
