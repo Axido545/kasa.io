@@ -31,42 +31,43 @@ function Housing() {
 
   return (
     <>
-      <Header />
-      {house && (
-        <>
-          <Carousel data={house.pictures} />
+      <div className="wrap">
+        <Header />
+        {house && (
+          <>
+            <Carousel data={house.pictures} />
 
-          <main className="house-main">
-            <h1 className="house-title"> {house.title}</h1>
-            <p className="house-location"> {house.location}</p>
-            <div className="wrap-tags-house">
-              {house.tags.map((tag, index) => (
-                <Tags key={`${tag}-${index}`} tags={house.tags} name={tag} />
-              ))}
-            </div>
+            <main className="house-main">
+              <h1 className="house-title"> {house.title}</h1>
+              <p className="house-location"> {house.location}</p>
+              <div className="wrap-tags-house">
+                {house.tags.map((tag, index) => (
+                  <Tags key={`${tag}-${index}`} tags={house.tags} name={tag} />
+                ))}
+              </div>
 
-            <Rating rating={house.rating} />
-            <Host
-              className="host-place"
-              name={house.host.name}
-              url={house.host.picture}
-            />
-            <div className="collapse-house">
-              <Collapse
-                className="collapse-house-v"
-                title="Description"
-                content={house.description}
+              <Rating rating={house.rating} />
+              <Host
+                className="host-place"
+                name={house.host.name}
+                url={house.host.picture}
               />
-              <Collapse
-                className="collapse-house-v"
-                title="Équipements"
-                content={house.equipments}
-              />
-            </div>
-          </main>
-        </>
-      )}
-
+              <div className="collapse-house">
+                <Collapse
+                  className="collapse-house-v"
+                  title="Description"
+                  content={house.description}
+                />
+                <Collapse
+                  className="collapse-house-v"
+                  title="Équipements"
+                  content={house.equipments}
+                />
+              </div>
+            </main>
+          </>
+        )}
+      </div>
       <Footer />
     </>
   )

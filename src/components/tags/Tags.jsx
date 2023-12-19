@@ -1,6 +1,6 @@
 import './tags.css'
 
-export default function Tags({ tag, name }) {
+export default function Tags({ name }) {
   return (
     <div className="house-tag">
       <div className="tag-list">

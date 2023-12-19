@@ -20,15 +20,17 @@ export default function Home() {
   })
   return (
     <>
-      <Header />
-      <Banner mytitle="chez vous partout et ailleurs" url={bannerHome} />
-      <main className="main-home">
-        <div className="container-article">
-          {housings.map(({ id, title, cover }) => (
-            <Article key={id} title={title} cover={cover} id={id} />
-          ))}
-        </div>
-      </main>
+      <div className="wrap">
+        <Header />
+        <Banner mytitle="chez vous partout et ailleurs" url={bannerHome} />
+        <main className="main-home">
+          <div className="container-article">
+            {housings.map(({ id, title, cover }) => (
+              <Article key={id} title={title} cover={cover} id={id} />
+            ))}
+          </div>
+        </main>
+      </div>
       <Footer />
     </>
   )

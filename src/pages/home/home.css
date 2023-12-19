@@ -1,7 +1,7 @@
 .main-home {
   background-color: #f6f6f6;
   border-radius: 25px;
-  width: 1240px;
+  width: 100%;
   margin: 0 auto;
   margin-top: 50px;
   margin-bottom: 50px;
@@ -9,7 +9,8 @@
 
 .home-banner {
   height: 223px;
-  width: 1240px;
+  /* width: 1240px; */
+  width: 100%;
   border-radius: 25px;
   position: relative;
   background-image: url('../../assets/banner-home.png');

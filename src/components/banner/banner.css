@@ -1,7 +1,7 @@
 .banner-style {
   position: relative;
   height: 223px;
-  width: 1240px;
+  width: 100%;
   border-radius: 25px;
   background-position: center;
   object-fit: cover;
@@ -11,7 +11,7 @@
 .img-banner {
   background-color: rgba(0, 0, 0, 0.3);
   height: 223px;
-  width: 1240px;
+  width: 100%;
   border-radius: 25px;
   display: flex;
   align-items: center;

@@ -20,15 +20,16 @@ function About() {
 
   return (
     <>
-      <Header />
-      <Banner url={bannerAbout} mytitle="" />
-      <div className="collapses">
-        <Collapse title="Fiabilité" content={content1} />
-        <Collapse title="Respect" content={content2} />
-        <Collapse title="Service" content={content3} />
-        <Collapse title="Sécurité" content={content4} />
+      <div className="wrap">
+        <Header />
+        <Banner url={bannerAbout} mytitle="" />
+        <div className="collapses">
+          <Collapse title="Fiabilité" content={content1} />
+          <Collapse title="Respect" content={content2} />
+          <Collapse title="Service" content={content3} />
+          <Collapse title="Sécurité" content={content4} />
+        </div>
       </div>
-
       <Footer />
     </>
   )

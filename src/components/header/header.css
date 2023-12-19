@@ -2,14 +2,14 @@ header {
   padding: 30px;
   display: flex;
   position: relative;
-  width: 1240px;
+  width: 100%;
   margin: 0 auto;
 }
 
 .nav-header {
   margin-right: 5px;
   width: 30%;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   color: #ff6060;
   size: 24px;
 }
