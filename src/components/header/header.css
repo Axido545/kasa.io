@@ -47,6 +47,7 @@ a.active {
 
   .logo-header {
     width: 145px;
+    margin-left: 16px;
   }
 
   ul {
