@@ -12,11 +12,13 @@ export default function Collapse({ title, content }) {
       <div className="collapse-title" onClick={handleToggle}>
         {title}
         <span>
-          <i
+          <i className="wrapper-collapse fa-solid fa-chevron-up chevron-collapse rotate-down"></i>
+
+          {/* <i
             className={`wrapper-collapse chevron-collapse fa-solid ${
-              active ? 'fa-chevron-up' : 'fa-chevron-down'
+              active ? 'fa-chevron-down' : 'fa-chevron-down rotate-down'
             }`}
-          ></i>
+          ></i> */}
         </span>
       </div>
       <div className="collapse-content">
