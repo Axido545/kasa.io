@@ -10,7 +10,6 @@
 
 .home-banner {
   height: 223px;
-  /* width: 1240px; */
   width: 100%;
   border-radius: 25px;
   position: relative;
@@ -42,10 +41,6 @@
 .container-article {
   display: flex;
   flex-flow: row wrap;
-  /* margin: 30px auto 30px auto;
-  gap: 4%;
-  row-gap: 25px;
-  padding: 50px; */
   border-radius: 30px;
   justify-content: center;
   gap: 30px;

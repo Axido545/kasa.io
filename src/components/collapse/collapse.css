@@ -45,7 +45,6 @@
   color: #ff6060;
   font-family: 'Montserrat';
   text-align: left;
-  /* width: 1055px; */
   visibility: visible;
   overflow: visible;
   transition: all 0.5s ease-in-out;
@@ -89,7 +88,7 @@
 
 @media (max-width: 640px) {
   .collapse-title {
-    width: 91%;
+    width: 93%;
     font-size: 13px;
     padding: 10px 20px;
   }
