@@ -17,7 +17,7 @@ header {
 ul {
   list-style-type: none;
   display: inline-block;
-  right: 30px;
+  right: 0;
   position: absolute;
 }
 
@@ -50,7 +50,7 @@ a.active {
   }
 
   ul {
-    right: 70px;
+    right: 0;
     font-size: 12px;
     text-transform: uppercase;
   }
