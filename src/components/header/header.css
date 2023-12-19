@@ -1,5 +1,6 @@
 header {
   padding-top: 30px;
+  padding-bottom: 30px;
   display: flex;
   position: relative;
   width: 100%;
@@ -43,6 +44,8 @@ a.active {
 @media (max-width: 640px) {
   header {
     width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 
   .logo-header {

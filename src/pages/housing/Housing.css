@@ -1,14 +1,14 @@
 .banner-housing {
   margin: 0 auto;
   display: flex;
-  width: 1240px;
+  width: 100%;
   height: 415px;
   flex-shrink: 0;
 }
 
 .house-main {
   margin: 40px auto;
-  width: 1240px;
+  width: 100%;
   position: relative;
 }
 
@@ -33,9 +33,9 @@
 .collapse-house {
   display: flex;
   flex-flow: row;
-  width: 1272px;
   margin-left: -15px;
   margin-top: 15px;
+  justify-content: space-between;
 }
 .collapse-house-v {
   width: 50%;
@@ -51,18 +51,24 @@
 @media (max-width: 640px) {
   .house-title {
     font-size: 18px;
-    margin-left: 15px;
     width: 355px;
+    display: flex;
+    top: 30px;
   }
+
   .house-location {
     font-size: 14px;
-    margin-left: 15px;
+    position: absolute;
+    top: 20px;
   }
   .collapse-house {
     display: flex;
     flex-flow: column;
-    width: 28%;
+    width: 100%;
+    top: -22px;
+    position: relative;
   }
+
   .house-main {
     margin-bottom: 10px;
   }
@@ -73,4 +79,5 @@
   flex-direction: row;
   padding: 10px 10px 10px 0px;
   margin-top: 18px;
+  justify-content: flex-start;
 }

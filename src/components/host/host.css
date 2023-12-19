@@ -25,3 +25,24 @@
   width: 94px;
   padding-right: 10px;
 }
+
+@media (max-width: 640px) {
+  .host-wrapper {
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    position: relative;
+    top: -22px;
+  }
+
+  .host-picture {
+    width: 32px;
+    height: 32px;
+  }
+  .host-name {
+    font-size: 12px;
+    width: 63px;
+    margin: 0;
+    padding: 5px;
+  }
+}

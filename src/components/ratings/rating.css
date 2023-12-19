@@ -16,3 +16,16 @@
 .red {
   color: #ff6060;
 }
+
+@media (max-width: 640px) {
+  .rating-star {
+    font-size: 18px;
+  }
+
+  .rating-position {
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    top: 10px;
+  }
+}
