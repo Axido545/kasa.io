@@ -1,9 +1,9 @@
 .house-tag {
   display: flex;
-  flex-flow: row;
-  /* align-items: flex-start; */
+  flex-flow: row wrap;
   flex-wrap: wrap;
   gap: 10px;
+  min-width: 55px;
 }
 
 .house-tag .tag {
@@ -25,10 +25,11 @@
 @media (max-width: 640px) {
   .house-tag .tag {
     font-size: 10px;
-    /* margin: 5px 3px 5px 0; */
+    margin-bottom: 10px;
   }
-  /* .tag-list {
-    width: 366px;
-    margin-left: 14px;
-  } */
+  .house-tag {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+  }
 }
