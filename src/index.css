@@ -3,8 +3,17 @@
 }
 
 .wrap {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 0 auto;
   padding-left: 50px;
   padding-right: 50px;
+  max-width: 1290px;
+}
+
+@media (max-width: 640px) {
+  .wrap {
+    margin: 0 auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    max-width: 100%;
+  }
 }

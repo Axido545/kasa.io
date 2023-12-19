@@ -11,7 +11,7 @@ export default function Article({ id, title, cover }) {
   return (
     <div id={id} className="article-block">
       <Link to={`/housing/${id}`}>
-        <div className="article-overlay"></div>
+        <div className="article-overlay"> </div>
         <img src={cover} alt={title} className="img-article" />
       </Link>
       <p className="article-p">{title}</p>
