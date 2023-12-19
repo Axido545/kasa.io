@@ -16,17 +16,28 @@ export const Carousel = ({ data }) => {
 
   return (
     <div className="carousel">
-      <img src={arrowLeft} className="arrow arrow-left" onClick={prevSlide} />
+      <img
+        src={arrowLeft}
+        alt="arrow left"
+        className="arrow arrow-left"
+        onClick={prevSlide}
+      />
       {data.map((item, index) => {
         return (
           <img
             className={slide === index ? 'slide' : 'slide slide-hidden'}
             src={item}
             key={`${item}-${index}`}
+            alt="Slider"
           />
         )
       })}
-      <img src={arrowRight} className="arrow arrow-right" onClick={nextSlide} />
+      <img
+        src={arrowRight}
+        alt="arrow right"
+        className="arrow arrow-right"
+        onClick={nextSlide}
+      />
       <span>
         {data.map((_, index) => {
           return (

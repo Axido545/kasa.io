@@ -16,7 +16,7 @@ export default function Collapse({ title, content }) {
             className={`wrapper-collapse chevron-collapse fa-solid ${
               active ? 'fa-chevron-up' : 'fa-chevron-down'
             }`}
-          ></i>{' '}
+          ></i>
         </span>
       </div>
       <div className="collapse-content">
