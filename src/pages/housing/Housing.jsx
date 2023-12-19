@@ -39,7 +39,12 @@ function Housing() {
           <main className="house-main">
             <h1 className="house-title"> {house.title}</h1>
             <p className="house-location"> {house.location}</p>
-            <Tags tags={house.tags} />
+            <div className="wrap-tags-house">
+              {house.tags.map((tag, index) => (
+                <Tags key={`${tag}-${index}`} tags={house.tags} name={tag} />
+              ))}
+            </div>
+
             <Rating rating={house.rating} />
             <Host
               className="host-place"
