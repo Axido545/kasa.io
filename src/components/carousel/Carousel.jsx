@@ -14,6 +14,21 @@ export const Carousel = ({ data }) => {
     setSlide(slide === 0 ? data.length - 1 : slide - 1)
   }
 
+  if (data.length <= 1) {
+    return (
+      <div className="carousel">
+        {data.map((item, index) => (
+          <img
+            className="slide"
+            src={item}
+            key={`${item}-${index}`}
+            alt="Slider"
+          />
+        ))}
+      </div>
+    )
+  }
+
   return (
     <div className="carousel">
       <img
