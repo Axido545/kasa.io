@@ -1,6 +1,6 @@
 import { NavLink, useRouteError } from 'react-router-dom'
-import Header from '../../components/header/Header'
-import Footer from '../../components/footer/footer'
+import Header from '../../layout/header/Header'
+import Footer from '../../layout/footer/footer'
 import './404.css'
 
 export default function ErrorPage() {

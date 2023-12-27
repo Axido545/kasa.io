@@ -1,5 +1,5 @@
-import Footer from '../../components/footer/footer.jsx'
-import Header from '../../components/header/Header.jsx'
+import Footer from '../../layout/footer/footer.jsx'
+import Header from '../../layout/header/Header.jsx'
 import { useNavigate, useParams } from 'react-router-dom'
 import './housing.css'
 import { useState, useEffect } from 'react'
@@ -21,7 +21,7 @@ function Housing() {
         .then((data) => {
           const thisHouse = data.find((house) => house.id === id)
           if (!thisHouse) {
-            navigate('/page-non-trouvée')
+            navigate('/page-not-found ')
           }
           setHouse(thisHouse)
         })
