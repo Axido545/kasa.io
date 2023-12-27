@@ -14,53 +14,38 @@ export const Carousel = ({ data }) => {
     setSlide(slide === 0 ? data.length - 1 : slide - 1)
   }
 
-  if (data.length <= 1) {
-    return (
-      <div className="carousel">
-        {data.map((item, index) => (
-          <img
-            className="slide"
-            src={item}
-            key={`${item}-${index}`}
-            alt="Slider"
-          />
-        ))}
-      </div>
-    )
-  }
-
   return (
     <div className="carousel">
-      <img
-        src={arrowLeft}
-        alt="arrow left"
-        className="arrow arrow-left"
-        onClick={prevSlide}
-      />
-      {data.map((item, index) => {
-        return (
+      {data.length > 1 && (
+        <>
           <img
-            className={slide === index ? 'slide' : 'slide slide-hidden'}
-            src={item}
-            key={`${item}-${index}`}
-            alt="Slider"
+            src={arrowLeft}
+            alt="arrow left"
+            className="arrow arrow-left"
+            onClick={prevSlide}
           />
-        )
-      })}
-      <img
-        src={arrowRight}
-        alt="arrow right"
-        className="arrow arrow-right"
-        onClick={nextSlide}
-      />
+          {data.map((item, index) => (
+            <img
+              className={slide === index ? 'slide' : 'slide slide-hidden'}
+              src={item}
+              key={`${item}-${index}`}
+              alt="Slider"
+            />
+          ))}
+          <img
+            src={arrowRight}
+            alt="arrow right"
+            className="arrow arrow-right"
+            onClick={nextSlide}
+          />
+        </>
+      )}
       <span>
-        {data.map((_, index) => {
-          return (
-            <span className="pagination" key={index}>
-              {slide === index ? `${slide + 1}/${data.length}` : null}
-            </span>
-          )
-        })}
+        {data.map((_, index) => (
+          <span className="pagination" key={index}>
+            {slide === index ? `${slide + 1}/${data.length}` : null}
+          </span>
+        ))}
       </span>
     </div>
   )
